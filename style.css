@@ -28,6 +28,24 @@ header div {
   border-radius: 5px;
   transition: 200ms ease-in-out;
 }
+.skills {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.skills-buttons {
+  /*display: flex;
+  justify-content: space-between;
+  gap: 20%; */
+  font-size: 18px;
+  padding: 8px;
+  color: black;
+  margin: 20px 40px 20px 40px;
+  border: black solid 3px;
+  border-radius: 20px;
+  background-color: white;
+}
 .connect {
   text-align: center;
   width: 80%;
