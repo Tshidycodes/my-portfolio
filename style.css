@@ -4,3 +4,10 @@ header div {
   justify-content: space-evenly;
   gap: 60%;
 }
+.intro {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 42px;
+  /*max-width: 500px; */
+}
