@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -17,6 +19,10 @@ h1 {
 .intro h1 span {
   color: #fd4766;
 }
+.intro p span {
+  color: #fd4766;
+  font-weight: 700;
+}
 .intro {
   text-align: center;
   width: 80%;
@@ -33,13 +39,27 @@ h1 {
 .hand-guide {
   font-size: 30px;
 }
-.resume-button {
-  padding: 20px;
+.btn {
+  color: #fff;
+  padding: 16px 40px;
   margin-top: 10px;
-  font-size: 15px;
-  border: none;
-  border-radius: 5px;
-  transition: 200ms ease-in-out;
+  font-size: 16px;
+  font-weight: 500px;
+  letter-spacing: 2px;
+  display: inline-block;
+  text-transform: uppercase;
+  background: #fd4766;
+  background-size: 152% 100%;
+  border: 2px solid #fd4766;
+  border-radius: 500px;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: transparent;
+  border-color: #fd4766;
+  color: #fd4766;
 }
 .skills {
   text-align: center;
@@ -160,12 +180,12 @@ a:hover {
 .email-container button {
   display: block;
   margin: 0 auto;
-  padding: 15px 30px;
+  /*padding: 15px 30px;
   color: blue;
   font-size: 16px;
   border-radius: 50px;
   cursor: pointer;
-  background: linear-gradient(270deg, pink, green);
+  background: linear-gradient(270deg, pink, green); */
 }
 hr {
   margin-top: 10px;
