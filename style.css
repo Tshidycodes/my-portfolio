@@ -91,6 +91,12 @@ h1 {
 ion-icon {
   font-size: 64px;
 }
+[name="location-outline"] {
+  color: #f1092f;
+  font-size: 150px;
+  display: block;
+  margin: auto;
+}
 [name="logo-linkedin"] {
   margin-left: 20px;
 }
