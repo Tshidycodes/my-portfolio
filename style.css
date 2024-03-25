@@ -2,7 +2,8 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #fce7f3;
+  /*background-color: #fce7f3; */
+  background-color: #f5f3ff;
 }
 
 header div {
@@ -77,9 +78,9 @@ h1 {
   gap: 20%; */
   font-size: 18px;
   padding: 8px;
-  color: black;
+  color: #666;
   margin: 20px 40px 20px 40px;
-  border: black solid 3px;
+  border: none;
   border-radius: 20px;
   background-color: white;
 }
@@ -206,7 +207,7 @@ a:hover {
 }
 
 .contacts-input:focus {
-  border: 2px solid yellowgreen;
+  border: 2px solid #fd4766;
 }
 .contacts-input::placeholder {
   color: #a9a9a9;
