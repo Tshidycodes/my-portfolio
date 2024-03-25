@@ -17,7 +17,7 @@ header div {
   margin: 0 auto;
   font-size: 20px;
 }
-.pointer {
+.hand-guide {
   font-size: 30px;
 }
 .resume-button {
@@ -52,19 +52,16 @@ header div {
 .lets-connect {
   text-align: center;
   font-size: 64px;
-  padding: 20px 10px 20px 10px;
+  padding: 10px 5px;
 }
-.connect {
-  text-align: center;
-  width: 80%;
-  margin: 0 auto;
-  font-size: 20px;
-}
+
 ion-icon {
   font-size: 64px;
 }
-
-.icons-skills {
+[name="logo-linkedin"] {
+  margin-left: 20px;
+}
+.social-links {
   display: flex;
   justify-content: space-evenly;
   margin-top: 40px;
@@ -86,17 +83,77 @@ a:hover {
   margin-bottom: 40px;
   font-size: 24px;
 }
-.connect,
+
 .contact-container {
   display: flex;
   justify-content: space-evenly;
   margin-top: 40px;
   margin-bottom: 40px;
-  align-items: center;
+  width: 80%;
+  margin: 0 auto;
 }
-.form-group {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  gap: 20px;
+.social-container {
+  width: 30%;
+  display: block;
+  margin: 0 auto;
+  align-content: center;
+}
+.email-container {
+  width: 70%;
+}
+.connect-title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+.email-title {
+  width: 70%;
+  margin: 10px auto;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+/*textarea, input {
+  display: block;
+  margin: auto;
+  width: 70%;
+}*/
+.contacts-input {
+  display: block;
+  margin: 0 auto;
+  padding-left: 25px;
+  width: 70%;
+  margin-bottom: 25px;
+  height: 50px;
+  border: 2px solid black; /* to remove */
+  outline: none;
+  border-radius: 50px;
+  font-weight: 500;
+  color: #666;
+}
+.email-container textarea {
+  height: 150px;
+  padding-top: 15px;
+  border-radius: 20px;
+}
+
+.contacts-input:focus {
+  border: 2px solid yellowgreen;
+}
+.contacts-input::placeholder {
+  color: #a9a9a9;
+}
+.email-container button {
+  display: block;
+  margin: 0 auto;
+  padding: 15px 30px;
+  color: blue;
+  font-size: 16px;
+  border-radius: 50px;
+  cursor: pointer;
+  background: linear-gradient(270deg, pink, green);
+}
+hr {
+  margin-top: 10px;
 }
