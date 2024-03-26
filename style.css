@@ -103,11 +103,11 @@ h1 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: #fd4766;
-  padding: 16px 40px;
+  /*background-color: #f5f3ff;
+   padding: 16px 40px;
   border-radius: 50px;
   font-weight: 700;
-  letter-spacing: 2px;
+  letter-spacing: 2px; */
 }
 
 .lets-connect {
