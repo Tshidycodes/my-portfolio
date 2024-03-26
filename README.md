@@ -1,2 +1,3 @@
-# tshidy_portfolio
-A portfolio page coded using HTML and CSS.
+# Portfolio Link:
+
+https://tshidycodes.github.io/tshidy_portfolio/
