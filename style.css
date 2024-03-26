@@ -1,9 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
+:root {
+  --white: white;
+  --cream-peach: #f5f3ff;
+  --black: #272044;
+  --light-red: #fd4766;
+  --deep-red: #f1092f;
+  --dark-gray: #666;
+  --light-gray: #a9a9a9;
+}
 body {
   font-family: "Roboto", sans-serif;
-  /*background-color: #fce7f3; */
-  background-color: #f5f3ff;
+
+  background-color: var(--cream-peach);
+  color: var(--black);
 }
 
 header div {
@@ -19,10 +29,10 @@ h1 {
   font-size: 75px;
 }
 .intro h1 span {
-  color: #fd4766;
+  color: var(--light-red);
 }
 .intro p span {
-  color: #fd4766;
+  color: var(--light-red);
   font-weight: 700;
 }
 .intro {
@@ -42,7 +52,7 @@ h1 {
   font-size: 30px;
 }
 .btn {
-  color: #fff;
+  color: var(--white);
   padding: 16px 40px;
   margin-top: 10px;
   font-size: 16px;
@@ -50,9 +60,9 @@ h1 {
   letter-spacing: 2px;
   display: inline-block;
   text-transform: uppercase;
-  background: #fd4766;
+  background: var(--light-red);
   background-size: 152% 100%;
-  border: 2px solid #fd4766;
+  border: 2px solid var(--light-red);
   border-radius: 500px;
   transition: all 0.4s ease-in-out;
   cursor: pointer;
@@ -60,8 +70,8 @@ h1 {
 
 .btn:hover {
   background: transparent;
-  border-color: #fd4766;
-  color: #fd4766;
+  border-color: var(--light-red);
+  color: var(--light-red);
 }
 .skills {
   text-align: center;
@@ -78,21 +88,21 @@ h1 {
   gap: 20%; */
   font-size: 18px;
   padding: 8px;
-  color: #666;
+  color: var(--dark-gray);
   margin: 20px 40px 20px 40px;
   border: none;
   border-radius: 20px;
-  background-color: white;
+  background-color: var(--white);
 }
 .project-container {
   position: relative;
   text-align: center;
-  color: white;
+  color: var(--white);
 }
 .project-container img {
   height: 300px;
   width: 40%;
-  border: 5px solid #f1092f;
+  border: 5px solid var(--deep-red);
   display: block;
   margin: 0 auto;
   border-radius: 50px;
@@ -120,7 +130,7 @@ ion-icon {
   font-size: 64px;
 }
 [name="location-outline"] {
-  color: #f1092f;
+  color: var(--deep-red);
   font-size: 150px;
   display: block;
   margin: auto;
@@ -135,11 +145,11 @@ ion-icon {
   margin-bottom: 40px;
 }
 a:link {
-  color: black;
+  color: var(--black);
   text-decoration: none;
 }
 a:visited {
-  color: black;
+  color: var(--black);
 }
 a:hover {
   color: rgba(19, 18, 18, 0.637);
@@ -198,7 +208,7 @@ a:hover {
   outline: none;
   border-radius: 50px;
   font-weight: 500;
-  color: #666;
+  color: var(--dark-gray);
 }
 .email-container textarea {
   height: 150px;
@@ -207,10 +217,10 @@ a:hover {
 }
 
 .contacts-input:focus {
-  border: 2px solid #fd4766;
+  border: 2px solid var(--light-red);
 }
 .contacts-input::placeholder {
-  color: #a9a9a9;
+  color: var(--light-gray);
 }
 .email-container button {
   display: block;
