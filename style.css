@@ -249,3 +249,8 @@ a:hover {
 hr {
   margin-top: 10px;
 }
+
+/*.responsive-img { 
+  max-width: 100%;
+  height: auto;
+}      REMOVE THIS CLASS*/
