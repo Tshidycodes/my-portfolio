@@ -15,9 +15,7 @@
 }
 body {
   font-family: "Roboto", sans-serif;
-
-  /* background-color: var(--cream-peach);*/
-  background-image: linear-gradient(var(--lime-deep), var(--dark-blue));
+  background-image: linear-gradient(var(--dark-blue), var(--lime-deep));
   color: var(--white);
 }
 
@@ -46,7 +44,6 @@ h1 {
   width: 80%;
   margin: 0 auto;
   font-size: 42px;
-  /*max-width: 500px; */
 }
 .background {
   text-align: center;
@@ -90,9 +87,6 @@ h1 {
   padding: 20px 10px 20px 10px;
 }
 .skills-buttons {
-  /*display: flex;
-  justify-content: space-between;
-  gap: 20%; */
   font-size: 18px;
   padding: 8px;
   color: var(--dark-gray);
@@ -113,19 +107,12 @@ h1 {
   display: block;
   margin: 0 auto;
   border-radius: 50px;
-
-  /*opacity: 0.6; */
 }
 .project-info {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /*background-color: #f5f3ff;
-   padding: 16px 40px;
-  border-radius: 50px;
-  font-weight: 700;
-  letter-spacing: 2px; */
 }
 .project-title {
   color: white;
@@ -210,11 +197,6 @@ a:hover {
   font-weight: 600;
 }
 
-/*textarea, input {
-  display: block;
-  margin: auto;
-  width: 70%;
-}*/
 .contacts-input {
   display: block;
   margin: 0 auto;
@@ -223,7 +205,6 @@ a:hover {
   margin-bottom: 25px;
   height: 50px;
   border: none;
-  /*border: 2px solid black;  to remove */
   outline: none;
   border-radius: 50px;
   font-weight: 500;
@@ -244,18 +225,7 @@ a:hover {
 .email-container button {
   display: block;
   margin: 0 auto;
-  /*padding: 15px 30px;
-  color: blue;
-  font-size: 16px;
-  border-radius: 50px;
-  cursor: pointer;
-  background: linear-gradient(270deg, pink, green); */
 }
 hr {
   margin-top: 10px;
 }
-
-/*.responsive-img { 
-  max-width: 100%;
-  height: auto;
-}      REMOVE THIS CLASS*/
