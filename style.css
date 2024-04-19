@@ -2,7 +2,8 @@
 
 :root {
   --white: white;
-  --cream-peach: #f5f3ff;
+  --pitch-black: black;
+  --cream-peach: rgba(245, 243, 255, 0.9);
   --black: #272044;
   --light-red: #fd4766;
   --deep-red: #f1092f;
@@ -50,10 +51,14 @@ h1 {
   width: 80%;
   margin: 0 auto;
   font-size: 20px;
+  background-color: var(--cream-peach);
+  color: var(--black);
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
-.hand-guide {
-  font-size: 30px;
-}
+
 .btn {
   color: var(--white);
   padding: 16px 40px;
@@ -77,54 +82,54 @@ h1 {
   color: var(--light-red);
 }
 
-.skills {
-  text-align: center;
-  width: 80%;
-  margin: 0 auto;
-}
-.my-skills {
+.sub-heading {
   font-size: 50px;
   padding: 20px 10px 20px 10px;
 }
 .skills-buttons {
-  font-size: 18px;
-  padding: 8px;
-  color: var(--dark-gray);
-  margin: 20px 40px 20px 40px;
+  font-size: small;
+  font-weight: 500;
+  padding: 6px;
+  color: var(--pitch-black);
+  margin: 5px 10px;
   border: none;
-  border-radius: 20px;
+  border-radius: 10px;
   background-color: var(--white);
 }
-.project-container {
-  position: relative;
-  text-align: center;
-  color: var(--white);
-}
-.project-container img {
-  height: 300px;
-  width: 30%;
-  border: 5px solid var(--deep-red);
-  display: block;
-  margin: 0 auto;
-  border-radius: 50px;
-}
-.project-info {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.project-title {
-  color: white;
-  font-size: 20px;
-  padding: 20px 20px;
-  background-color: var(--light-red);
-  border-radius: 50px;
-  opacity: 0.9;
-  width: 90%;
-  max-width: 90%;
-}
 
+ul {
+  list-style-type: none;
+}
+.to-flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+.project {
+  border-radius: 5px;
+  background-color: #73ceab;
+  flex: 1;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.project-name {
+  font-weight: 500;
+}
+.project-description {
+  font-size: medium;
+}
+.link-btn {
+  background-color: #ff7171;
+  color: var(--white);
+  font-weight: 600;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+.link-btn:hover {
+  background-color: var(--white);
+  color: #ff7171;
+}
 .lets-connect {
   text-align: center;
   font-size: 64px;
