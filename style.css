@@ -8,12 +8,17 @@
   --deep-red: #f1092f;
   --dark-gray: #666;
   --light-gray: #a9a9a9;
+  --lime: hsl(129, 100%, 95%);
+  --light-blue: hsl(218, 100%, 93%);
+  --lime-deep: hsl(129, 74%, 67%);
+  --dark-blue: hsl(218, 77%, 71%);
 }
 body {
   font-family: "Roboto", sans-serif;
 
-  background-color: var(--cream-peach);
-  color: var(--black);
+  /* background-color: var(--cream-peach);*/
+  background-image: linear-gradient(var(--lime-deep), var(--dark-blue));
+  color: var(--white);
 }
 
 header div {
