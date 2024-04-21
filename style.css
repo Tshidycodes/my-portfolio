@@ -13,10 +13,12 @@
   --light-blue: hsl(218, 100%, 93%);
   --lime-deep: hsl(129, 74%, 67%);
   --dark-blue: hsl(218, 77%, 71%);
+  --blue: #76bcc8;
+  --green: #73ceab;
 }
 body {
   font-family: "Roboto", sans-serif;
-  background-image: linear-gradient(var(--dark-blue), var(--lime-deep));
+  background-image: linear-gradient(var(--blue), var(--green));
   color: var(--white);
 }
 
@@ -211,21 +213,22 @@ a:hover {
   height: 50px;
   border: none;
   outline: none;
-  border-radius: 50px;
+  border-radius: 8px;
   font-weight: 500;
-  color: var(--dark-gray);
+  color: var(--black);
+  background-color: var(--lime);
 }
 .email-container textarea {
   height: 150px;
   padding-top: 15px;
-  border-radius: 20px;
+  border-radius: 8px;
 }
 
 .contacts-input:focus {
-  border: 2px solid var(--light-red);
+  border: 1px solid var(--lime-deep);
 }
 .contacts-input::placeholder {
-  color: var(--light-gray);
+  color: var(--dark-gray);
 }
 .email-container button {
   display: block;
