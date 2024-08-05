@@ -47,7 +47,11 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Responsive Styles */
+.go_home {
+  text-align: center;
+  font-weight: 700;
+}
+
 @media (max-width: 768px) {
   header h1 {
     font-size: 1.5em;

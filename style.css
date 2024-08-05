@@ -229,6 +229,18 @@ ul {
 .project-description {
   font-size: medium;
 }
+
+@media (max-width: 768px) {
+  .to-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project {
+    width: 90%;
+    margin: 10px 0;
+  }
+}
 .link-btn {
   background-color: #ff7171;
   color: var(--white);
