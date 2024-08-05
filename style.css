@@ -23,6 +23,10 @@ body {
   color: var(--white); */
   background-color: black;
   color: white;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .topnav {
@@ -83,38 +87,35 @@ h1 {
   font-style: normal;
   font-size: 75px;
 }
-
 .intro {
   text-align: center;
-  width: 80%;
-  margin: 0 auto;
-  font-size: 20;
+  padding: 20px;
 }
+
+.intro h1 {
+  font-size: 2em;
+}
+
 .intro p {
   color: gray;
-  padding-bottom: 40px;
+  font-size: 1.2em;
 }
 
 .icons {
   display: flex;
   justify-content: center;
-  align-items: center;
   gap: 30px;
-  padding-bottom: 20px;
-  color: var(--orangish);
+  padding: 20px 0;
+  font-size: 2em;
 }
 
 .icons a {
   color: var(--orangish);
-  font-size: 30px;
   transition: color 0.3s;
 }
 
 .icons a:hover {
-  color: var(--orangish);
-}
-.icons a:visited {
-  color: white;
+  color: var(--white);
 }
 
 .background {
@@ -212,17 +213,19 @@ ul {
   justify-content: space-evenly;
 }
 .project {
-  border-radius: 5px;
-  background-color: #73ceab;
+  border-radius: 2px;
+  background-color: black;
   flex: 1;
   margin: 10px;
   padding: 10px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  box-shadow: 0 10px 20px var(--orangish), 0 6px 6px black;
   position: relative;
 }
 .project-name {
   font-weight: 500;
+  color: var(--orangish);
 }
+
 .project-description {
   font-size: medium;
 }
@@ -242,122 +245,18 @@ ul {
   background-color: var(--white);
   color: #ff7171;
 }
-.lets-connect {
-  text-align: center;
-  font-size: 64px;
-  padding: 10px 5px;
+
+section {
+  flex: 1;
+}
+hr {
+  margin: 20px 0;
+  border: none;
+  border-top: 1px solid gray;
 }
 
-/*ion-icon {
-  font-size: 64px;
-}
-[name="location-outline"] {
-  color: var(--deep-red);
-  font-size: 150px;
-  display: block;
-  margin: auto;
-}
-[name="logo-linkedin"] {
-  margin-left: 20px;
-}
-
-.social-links {
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-a:link {
-  color: var(--black);
-  text-decoration: none;
-}
-a:visited {
-  color: var(--black);
-}
-a:hover {
-  color: rgba(19, 18, 18, 0.637);
-}
-
-
-.footer {
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  color: gray;
-  font-size: 16px;
-}
- */
 footer {
   text-align: center;
   padding: 20px 0;
-
   color: gray;
-}
-
-footer p {
-  margin: 0;
-}
-.contact-container {
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  width: 80%;
-  margin: 0 auto;
-}
-.social-container {
-  width: 30%;
-  display: block;
-  margin: 0 auto;
-  align-content: center;
-}
-
-.email-container {
-  width: 70%;
-}
-.connect-title {
-  text-align: center;
-  font-size: 30px;
-  font-weight: 600;
-}
-.email-title {
-  width: 70%;
-  margin: 10px auto;
-  text-align: center;
-  font-size: 40px;
-  font-weight: 600;
-}
-
-.contacts-input {
-  display: block;
-  margin: 0 auto;
-  padding-left: 25px;
-  width: 70%;
-  margin-bottom: 25px;
-  height: 50px;
-  border: none;
-  outline: none;
-  border-radius: 8px;
-  font-weight: 500;
-  color: var(--black);
-  background-color: var(--lime);
-}
-.email-container textarea {
-  height: 150px;
-  padding-top: 15px;
-  border-radius: 8px;
-}
-
-.contacts-input:focus {
-  border: 1px solid var(--lime-deep);
-}
-.contacts-input::placeholder {
-  color: var(--dark-gray);
-}
-.email-container button {
-  display: block;
-  margin: 0 auto;
-}
-hr {
-  margin-top: 10px;
 }
