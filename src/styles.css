@@ -1,0 +1,144 @@
+﻿@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+  --white: white;
+  --pitch-black: black;
+  --cream-peach: rgba(245, 243, 255, 0.9);
+  --black: #272044;
+  --light-red: #fd4766;
+  --deep-red: #f1092f;
+  --dark-gray: #666;
+  --light-gray: #a9a9a9;
+  --lime: hsl(129, 100%, 95%);
+  --light-blue: hsl(218, 100%, 93%);
+  --lime-deep: hsl(129, 74%, 67%);
+  --dark-blue: hsl(218, 77%, 71%);
+  --blue: #76bcc8;
+  --green: #73ceab;
+  --orangish: #b35518;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: black;
+  color: white;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.topnav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 0;
+  font-weight: 700;
+}
+
+.topnav a {
+  position: relative;
+  width: auto;
+  margin: 0 10px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  transition: color 0.3s;
+}
+
+.topnav a:visited {
+  color: white;
+}
+
+.topnav a::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--orangish);
+  transition: width 0.3s, left 0.3s;
+}
+
+.topnav a:hover {
+  color: var(--orangish);
+}
+
+.topnav a:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+.topnav a.active {
+  color: var(--orangish);
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2em;
+  text-align: center;
+  padding: 20px;
+}
+
+section {
+  flex: 1;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 0 20px;
+}
+
+.project {
+  border-radius: 2px;
+  background-color: black;
+  padding: 10px;
+  box-shadow: 0 10px 20px var(--orangish), 0 6px 6px black;
+}
+
+.project-name {
+  font-weight: 500;
+  color: var(--orangish);
+}
+
+.project-description {
+  font-size: medium;
+}
+
+.skills-buttons {
+  font-size: small;
+  font-weight: 500;
+  padding: 6px;
+  color: var(--pitch-black);
+  margin: 5px 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--white);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+hr {
+  margin: 20px 0;
+  border: none;
+  border-top: 1px solid gray;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  color: gray;
+}
