@@ -85,3 +85,57 @@ a:hover {
     margin-left: 15px;
   }
 }
+
+.info-block {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.info-block-content {
+  display: flex;
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.info-square {
+  width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.info-square h3 {
+  margin-top: 0;
+  color: #e74c3c;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #e74c3c;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  background: #c0392b;
+}
+
+@media (max-width: 768px) {
+  .info-square {
+    width: 100%;
+  }
+}
