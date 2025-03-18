@@ -1,10 +1,12 @@
-﻿navigator.geolocation.getCurrentPosition(
+﻿require("dotenv").config();
+
+navigator.geolocation.getCurrentPosition(
   (position) => {
     const latitude = position.coords.latitude;
     const longitude = position.coords.longitude;
 
-    const weatherApiKey = "0fd15c9a5a990eb83ca43244f4e9b7df";
-    const newsApiKey = "5d90ae51f55347a196dcf4e2a7f1ddcc";
+    const weatherApiKey = process.env.weatherApi_Key;
+    const newsApiKey = process.env.newsApi_Key;
 
     fetch(
       `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${weatherApiKey}&units=metric`
