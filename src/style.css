@@ -97,7 +97,7 @@ h1 {
 }
 
 .intro p {
-  color: gray;
+  color: var(--lime); /*THIS IS THE COLOUR FOR MY PARAGRAPH TEXTS */
   font-size: 1.2em;
 }
 
