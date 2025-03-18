@@ -1,3 +1,1 @@
-# Portfolio Link:
-
-(https://tshidycodes.github.io/My-Portfolio/)
+# Click 👉 [here](https://tshidycodes.github.io/My-Portfolio/) for my Portfolio Link
