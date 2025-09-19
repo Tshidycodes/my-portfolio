@@ -1,1 +1,1 @@
-# Click 👉 [here](https://tshidycodes.github.io/My-Portfolio/) for my Portfolio Link
+# Click 👉 [here](https://tshidycodes.github.io/my-portfolio/) to view my Portfolio.
